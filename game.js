@@ -14,9 +14,8 @@ function nextSequence(){
 $(".btn").click(handler);
 
 function handler(){
-    var userChosenColour=$("button").attr("id");
+    var userChosenColour=$("this").attr("id");
     userClickedPattern.push(userChosenColour);
-    return this;
 }
 
 
