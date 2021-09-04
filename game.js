@@ -11,12 +11,12 @@ function nextSequence(){
     return audio.play();
 }
 
-$("button").on("click", handler);
+$(".btn").click(handler);
 
 function handler(){
-    var userChosenColour= $("button").attr("id");
+    var userChosenColour=$("button").attr("id");
     userClickedPattern.push(userChosenColour);
-    console.log(userClickedPattern);
+    return this;
 }
 
 
