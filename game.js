@@ -16,6 +16,7 @@ $("button").on("click", handler);
 function handler(){
     var userChosenColour= $("button").attr("id");
     userClickedPattern.push(userChosenColour);
+    console.log(userClickedPattern);
 }
 
 
